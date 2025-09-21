@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    background-color: rgb(177, 177, 237);
+    color: black;
+    padding: 5px;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+    gap: 4px;
+}
+.cursor-pointer{
+    gap: 8px;
+}
+.buttons{
+    display: flex;
+}
+.line-through{
+     text-decoration-line: line-through;
+}
+.container{
+    background-color: rgb(97, 97, 109);
+    width: 1/2;
+}
